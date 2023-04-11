@@ -7,6 +7,7 @@ from fastapi.encoders import jsonable_encoder
 from fastapi.exceptions import ValidationError
 from fastapi.responses import JSONResponse
 
+
 fake_users = [
     {"id": 1, "role": "admin", "name": "Bob"},
     {"id": 2, "role": "investor", "name": "John"},
